@@ -27,7 +27,8 @@ This project aims to build an image classification system for recognizing variou
 - Number of images: ~3700
 
 ## Dataset Structure
-
+This is the structure of the dataset used. Note that the there is a sample folder, created additionally.
+![data_structure](other/your-image.jpg)
 ## Technologies Used
 
 - Python
@@ -44,12 +45,19 @@ This project aims to build an image classification system for recognizing variou
 - Softmax output for multi-class classification
 
 ## Results
+### Evaluation Metrics
 | Metric | Value |
-|-----------------|-----------------|
-| Accuracy      | 0 |
-| Precision      | 0 |
-| Recall      | 0 |
+|--------|-------|
+| Validation Loss | 0 |
+| Validation Accuracy | 0 |
+| Model Loss | 0 |
+| Model Accuracy | 0 |
 
+![output](other/your-image.jpg)
+
+### Output
+This is how the output will be shown after running main.py file
+![output](other/your-image.jpg)
 ## Future Work
 - Use transfer learning with pretrained models (e.g., VGG16, ResNet50)
 - Deploy as a web application
